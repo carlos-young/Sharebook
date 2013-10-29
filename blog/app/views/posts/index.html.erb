@@ -1,0 +1,12 @@
+<font color = "blue"><h1 align = "center">Sharebook</h1><font>
+
+<p><%= link_to "Add a New Post", new_post_path%></p>
+
+<% @posts.each do |post|%>
+<h2 align = "center"><%= link_to post.title,post %></h2>
+
+<p align = "center"><%= link_to "Edit", edit_post_path(post) %></p>
+<hr size = 1  width = 500 />
+<% end %>
+
+
