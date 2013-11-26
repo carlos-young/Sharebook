@@ -1,0 +1,14 @@
+<h1>Users#index</h1>
+<p>Here should be the sign in page</p>
+
+<%= form_for @user do |user| %>
+<p>
+<%= user.label :email%><br />
+<%= user.text_field :email%><br />
+<%= user.label :password%><br />
+<%= user.text_field :password%>
+</p>
+<p>
+<%=user.submit "Sign In" %>
+</p>
+<% end%>
