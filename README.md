@@ -14,8 +14,4 @@ as followed.
 7) Users should be able to log out of the database and files be secure and accessible next time logging into the server.
 
 
-As of now we have "files" that are already on the database and User could potientially upload a new one or edit one of the current
-ones along with any new one uploaded. We have not yet completed the login userstory that allows everyone their own seperate work
-space. This would require another server to save the users login information. This is our next goal, if this task can not be created
-we would at least like to attempt to export the file for sharing or complete the whole graphical layout on the main page 
-after login. 
+Our Fall 2013 semester has ended and this project is coming to a close. We were not able to accomplish all of the planned tasked that we intended from the beginning. We got the foundation completed, users are able to register,sign in, sign out and upload documents to our databases. We were not able to play with the CSS like we wanted to to give the website a more friendly appereance. This projecdt was a great idea and a good learning experience on rails and what we could possibly get done in a 2 month time period. 
